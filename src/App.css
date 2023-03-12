@@ -2,37 +2,80 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#Intro{
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: calc(50% - 1920px/2);
+  top: 0px;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0.2) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 0.05%, rgba(255, 255, 255, 0) 0.05%, rgba(255, 255, 255, 0) 9.38%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Main{
+  position: absolute;
+  width: 1110px;
+  height: 1080px;
+  left: 405px;
+  top: 0px;
+  background-color: blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#photo{
+  position: absolute;
+  width: 594px;
+  height: 942px;
+  left: 549.2px;
+  top: calc(50% - 942px/2);
+}
+
+#content{
+  position: absolute;
+  width: 699.2px;
+  height: 478px;
+  left: 0px;
+  top: calc(50% - 478px/2);
+}
+
+#text{
+  position: absolute;
+  width: 109px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  /* identical to box height, or 100% */
+
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  color: #707070;
 }
 
-.App-link {
-  color: #61dafb;
+#name{
+  font-size: 200px;
+  font-weight: 700;
+  color: #ffc400;
+  line-height: .8;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg,#ffc400,#e04700);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#Intro Main h1{
+    font-size: 200px;
+    font-weight: 700;
+    color: #ffc400;
+    line-height: .8;
+    margin-bottom: 10px;
+    background: linear-gradient(45deg,#ffc400,#e04700);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
