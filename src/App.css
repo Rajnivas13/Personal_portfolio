@@ -17,7 +17,6 @@
   height: 1080px;
   left: 405px;
   top: 0px;
-  background-color: blue;
 }
 
 #photo{
@@ -25,7 +24,7 @@
   width: 594px;
   height: 942px;
   left: 549.2px;
-  top: calc(50% - 942px/2);
+  top: 0px;
 }
 
 #content{
@@ -33,11 +32,11 @@
   width: 699.2px;
   height: 478px;
   left: 0px;
-  top: calc(50% - 478px/2);
+  top: 60px;
 }
 
 #text{
-  position: absolute;
+  position: relative;
   width: 109px;
   height: 36px;
   left: 0px;
@@ -68,14 +67,29 @@
   -webkit-text-fill-color: transparent;
 }
 
-#Intro Main h1{
-    font-size: 200px;
+#content-text h1{
+    font-size: 100px;
     font-weight: 700;
     color: #ffc400;
-    line-height: .8;
+    line-height: 1.09;
     margin-bottom: 10px;
     background: linear-gradient(45deg,#ffc400,#e04700);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 1px;
+    top:20x;
+    position: relative;
+}
+
+#content-text span {
+  font-size: 36px;
+  color: #707070;
+  line-height: 1;
+  position: relative;
+}
+
+#content-text{
+  top:100px;
+  position: relative;
 }
