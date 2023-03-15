@@ -4,7 +4,7 @@
 
 #Intro {
   position: absolute;
-  width: 1920px;
+  width: 1725px;
   height: 1080px;
   left: calc(50% - 1920px/2);
   top: 0px;
@@ -211,4 +211,161 @@
 
   color: #BCBCBC;
 
+}
+
+#tech{
+  position: absolute;
+  width: 1110px;
+  height: 788px;
+  left: 202px;
+  top: 1050px;
+}
+
+#technology{
+  position: absolute;
+  width: 1110px;
+  height: 54px;
+  left: 0px;
+  top: 50px;
+}
+
+#tech-intro{
+  position: absolute;
+  width: 225.78px;
+  height: 46px;
+  left: 0px;
+  top: 4px;
+
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  color: #242424;
+}
+
+#technology2{
+  position: absolute;
+width: 1110px;
+height: 54px;
+left: 0px;
+top: 684px;
+}
+
+#tech-intro2{
+  position: absolute;
+  width: 250.14px;
+  height: 46px;
+  left: 0px;
+  top: 4px;
+  
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  /* or 150% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #242424;
+  
+}
+
+#tech-stack{
+  position: relative;
+  height: 520px;
+  left: 92.48px;
+  right: 0.02px;
+  top: 134px;
+}
+#tech-stacks{
+  position: relative;
+  display: flex;          /* ADD */
+  flex-direction: column; /* ADD */
+  width: 1017.5px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  margin-bottom: 16px;
+}
+#tech-stack-name{
+  position: absolute;
+  height: 36px;
+  /* left: 0px;
+  right: 763.12px; */
+  top: 0px;
+}
+#text-stack-name{
+  position: absolute;
+  width: 69.15px;
+  height: 25px;
+  left: 71px;
+  top: 5px;
+
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* or 120% */
+
+  display: flex;
+  align-items: center;
+
+  color: #BCBCBC;
+}
+
+#tech-stack-percentage{
+  position: absolute;
+  width: 31.84px;
+  height: 20px;
+  left: 800.48px;
+  top: 8px;
+
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  color: #BCBCBC;
+}
+
+#tech-chart-for-every-stack{
+  box-sizing: border-box;
+
+position: relative;
+height: 13px;
+left: 15px;
+right: 73.66px;
+top: 10px;
+display: flex;
+justify-content: center;
+border: 1px solid #272727;
+border-radius: 50px;
+}
+
+#percentage{
+  position: absolute;
+  left: 1px;
+  right: 101.88px;
+  top: 1px;
+  bottom: 1px;
+
+  background: linear-gradient(45deg, #FFC400 0%, #E04700 100%);
+}
+
+.item {
+  top: 5px;
 }
