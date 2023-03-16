@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+@keyframes background-animation {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
 #Intro {
   position: absolute;
   width: 1725px;
@@ -9,7 +14,13 @@
   left: calc(50% - 1920px/2);
   top: 0px;
   background: linear-gradient(45deg, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0.2) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 0.05%, rgba(255, 255, 255, 0) 0.05%, rgba(255, 255, 255, 0) 9.38%);
+  animation-name: background-animation;
+  animation-duration: 1000s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
+
+
 
 #Main {
   position: absolute;
@@ -135,7 +146,7 @@
   width: 1110px;
   height: 388px;
   left: 202px;
-  top: 650px;
+  top:690px;
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -371,4 +382,156 @@ border-radius: 50px;
 
 .puthusu{
   left:-25px;
+}
+
+#Github{
+  position: absolute;
+  width: 1110px;
+  height: 448px;
+  top: 1890px;
+  margin-left:20px;
+}
+
+.whole{
+  width: 1110px;
+  left:5px;
+}
+
+#github-box{
+  position: absolute;
+  width: 1110px;
+  height: 54px;
+  left: 0px;
+  top: 50px;
+  display: flex;
+}
+
+#github-name{
+  position: absolute;
+  width: 147.79px;
+  height: 46px;
+  left: 0px;
+  top: 4px;
+  
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  /* or 150% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #242424;
+  
+}
+
+#github-lists{
+  position: absolute;
+  width: 1017.5px;
+  height: 180px;
+  left: 43.48px;
+  top: 134px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#github-list{
+  position: relative;
+  width: 309.16px;
+  height: 180px;
+  left: 15px;
+  top: 0px;
+  margin-right: 8px;
+  background: #191919;
+  border-radius: 5px;
+}
+
+#github-author-name{
+  position: absolute;
+  width: 243px;
+  height: 30px;
+  left: 15px;
+  top: 15px;
+  
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+  
+  color: #FFC400;
+}
+#github-project-details{
+  position: absolute;
+  width: 251px;
+  height: 20px;
+  left: 15px;
+  top: 50px;
+  
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.3333px;
+  line-height: 20px;
+  /* identical to box height, or 150% */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  
+  color: #BCBCBC;
+}
+
+#details{
+  position: absolute;
+width: 279.16px;
+height: 30px;
+left: 15px;
+top: 135px;
+}
+
+#github-photo{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 249.16px;
+top: 0px;
+
+}
+
+#github-box2{
+  position: absolute;
+  width: 1110px;
+  height: 54px;
+  left: 0px;
+  top: 344px;
+  
+}
+
+#github-name2{
+  position: absolute;
+  width: 170.86px;
+  height: 46px;
+  left: 0px;
+  top: 4px;
+  
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  /* or 150% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #242424;
 }
