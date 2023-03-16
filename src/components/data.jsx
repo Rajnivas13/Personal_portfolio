@@ -8,56 +8,55 @@ export default[
         {
             img:"express.png",
             techstackname:"Expressjs",
-            percentage:"85%",
+            percentage:"60%",
 
         },
         {
             img:"mongodb.png",
             techstackname:"MongoDB",
-            percentage:"85%",
+            percentage:"61%",
 
         },
         {
             img:"react.png",
             techstackname:"Reactjs",
-            percentage:"85%",
+            percentage:"45%",
 
         },
         {
             img:"redux.png",
             techstackname:"Redux",
-            percentage:"85%",
+            percentage:"18%",
 
         },
         {
             img:"graphql.png",
             techstackname:"GraphQL",
-            percentage:"85%",
+            percentage:"0%",
 
         },
         {
             img:"gatsby.png",
             techstackname:"Gatsby",
-            percentage:"85%",
+            percentage:"0%",
 
         },
         {
             img:"html5.png",
             techstackname:"HTML5",
-            percentage:"85%",
+            percentage:"90%",
 
         },
         {
             img:"css3.png",
             techstackname:"CSS 3",
-            percentage:"85%",
+            percentage:"88%",
 
         },
         {
             img:"javascript.png",
             techstackname:"Javascript",
-            percentage:"85%",
-
+            percentage:"75%",
         }
 
 ]

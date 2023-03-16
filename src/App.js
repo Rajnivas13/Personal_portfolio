@@ -23,13 +23,13 @@ function App() {
       <Intro/>
       <About/> 
       {/* <Tech/> */}
-      <div id="tech" className="container-fluid">
+      <div id="tech" className="container">
             <div id="technology">
                 <text id="tech-intro">&lt;Technology&gt;</text>
             </div>
             <div id="tech-stack" className='container'>
               <div className='row'>
-                <div className='col-lg-11 offset-lg-1'>
+                <div className='col-lg-11 offset-lg-1 puthusu'>
                      {Techer}
                 </div>
                   

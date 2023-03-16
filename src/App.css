@@ -323,10 +323,10 @@ top: 684px;
 }
 
 #tech-stack-percentage{
+  right:15px;
   position: absolute;
   width: 31.84px;
   height: 20px;
-  left: 800.48px;
   top: 8px;
 
   font-family: 'Lora';
@@ -343,11 +343,10 @@ top: 684px;
 }
 
 #tech-chart-for-every-stack{
-  box-sizing: border-box;
+box-sizing: border-box;
 
 position: relative;
 height: 13px;
-left: 15px;
 right: 73.66px;
 top: 10px;
 display: flex;
@@ -356,16 +355,20 @@ border: 1px solid #272727;
 border-radius: 50px;
 }
 
-#percentage{
+/* #percentage{
   position: absolute;
   left: 1px;
-  right: 101.88px;
-  top: 1px;
+  /* right: 101.88px; */
+  /* top: 1px;
   bottom: 1px;
 
-  background: linear-gradient(45deg, #FFC400 0%, #E04700 100%);
-}
+  background: linear-gradient(45deg, #FFC400 0%, #E04700 100%); */
+/* } */ */
 
 .item {
   top: 5px;
+}
+
+.puthusu{
+  left:-25px;
 }
