@@ -8,8 +8,9 @@ body {
 
   background: #060606;
   color: #bcbcbc;
-  font-family: Lora,serif;
-  font-weight: 400;
+  background-image: url(../public/Images/graph.png);
+  background-repeat:repeat-y; 
+  background-position:top 1000px;
 }
 
 code {
